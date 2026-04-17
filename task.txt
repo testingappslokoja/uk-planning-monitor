@@ -1,0 +1,42 @@
+Summary
+**Job Title:**
+Python Web Scraping Developer to Monitor UK Planning Applications + Alerts System
+
+**Job Description:**
+I’m looking for an experienced web scraping developer to build a system that monitors UK council planning application portals and notifies me when relevant applications are submitted.
+
+The goal is to identify potential leads (e.g. home extensions, loft conversions, renovations) as early as possible.
+
+**Scope of Work:**
+
+* Scrape planning application data from selected UK council websites (e.g. Idox / Public Access portals)
+* Extract key data (address, description, date, reference number)
+* Filter applications based on keywords (e.g. “extension”, “loft”, etc.)
+* Set up automated daily checks (or more frequent if possible)
+* Send alerts via email (or optionally SMS/WhatsApp) when new matching applications appear
+
+**Initial Target:**
+
+* Start with 2–3 councils only (to test system)
+* Ability to expand later if successful
+
+**Technical Requirements:**
+
+* Python (BeautifulSoup, Scrapy, Selenium or similar)
+* Experience scraping dynamic websites
+* Ability to handle pagination and site structure differences
+* Set up scheduled jobs (cron or similar)
+* Basic automation for notifications (email/API integrations)
+
+**Nice to Have (not essential):**
+
+* Experience with UK planning portals (Idox / Public Access)
+* Experience with Apify, Zapier, or Make
+* Suggestions for improving reliability / scalability
+
+**Deliverables:**
+
+* Working scraper for selected councils
+* Filtering system for relevant applications
+* Automated alert system
+* Basic documentation so it can be maintained
