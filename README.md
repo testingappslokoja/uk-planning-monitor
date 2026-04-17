@@ -51,8 +51,34 @@ For Gmail, use an [App Password](https://support.google.com/accounts/answer/1858
 # Run once
 python main.py
 
-# Or run scheduled (daily at 8am)
+# Run scheduled (daily at 8am)
 python main.py --schedule
+```
+
+### 5. Running Daily (Windows)
+
+**Option A: Built-in Scheduler**
+```bash
+python main.py --schedule
+```
+The scraper will run daily at 8:00 AM. Press `Ctrl+C` to stop.
+
+**Option B: Windows Task Scheduler**
+1. Open Task Scheduler (taskschd.msc)
+2. Create Basic Task → Name: "UK Planning Monitor"
+3. Trigger: Daily → Set time (e.g., 8:00 AM)
+4. Action: Start a program
+5. Program: `python`
+6. Arguments: `C:\path\to\main.py`
+7. Start in: `C:\path\to\upwork`
+
+**Option C: Run on Startup (with delay)**
+Add to Windows Startup folder to run when you log in.
+
+### 6. Check Results
+
+```bash
+type data\alerts.json
 ```
 
 ## Project Structure
